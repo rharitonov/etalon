@@ -1,6 +1,10 @@
   SELECT  *
   FROM [NAV_CRM_Integration].[dbo].[CRM_To_NAV_Messages]
   WHERE [ObjectID] = LOWER('1828A910-BE69-E911-80F7-001DD8B72EC3')
-  and CAST([Modified] as date) = '20190610'
+  and CAST([Modified] as date) = '20200310'
   --and [Status] = '0'
   order by [Modified]
+  
+  
+  
+  EXT add
